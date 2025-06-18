@@ -10,9 +10,6 @@
       "destination": "/:match*"
     }
   ],
-  "env": {
-    "OPENAI_API_KEY": "@openai-api-key"
-  },
   "functions": {
     "app/api/chat/route.ts": {
       "maxDuration": 30
@@ -20,7 +17,7 @@
     "app/api/openai/token/route.ts": {
       "maxDuration": 30
     }
-  },
+  ],
   "headers": [
     {
       "source": "/api/(.*)",
@@ -35,9 +32,10 @@
         },
         {
           "key": "Access-Control-Allow-Headers",
-          "value": "Content-Type, Authorisation"
+          "value": "Content-Type, Authorization"
         }
       ]
     }
   ]
 }
+
