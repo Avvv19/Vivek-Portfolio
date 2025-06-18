@@ -6,8 +6,8 @@
       "destination": "/api/:match*"
     },
     {
-      "source": "/: match*",
-      "destination": "/: match*"
+      "source": "/:match*",
+      "destination": "/:match*"
     }
   ],
   "functions": {
