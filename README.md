@@ -56,7 +56,26 @@ Vivek-Portfolio/
 |-- tsconfig.json
 |-- README.md
 ```
+tools -
+llm-applications
 
+ai-agents
+
+prompt-engineering
+
+function-calling
+
+structured-outputs
+
+rest-apis
+
+schema-validation
+
+retry-logic
+
+workflow-orchestration
+
+bigquery
 ---
 
 ## Getting Started
